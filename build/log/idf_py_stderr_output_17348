@@ -1,0 +1,11 @@
+CMake Error at E:/esp-idf/esp-idf_v5.0.2/v5.0.2/esp-idf/tools/cmake/build.cmake:519 (message):
+  HINT: Please check manifest file of the following component(s): main
+
+  ERROR: Because project depends on idf (>=5.1) which doesn't match any
+  versions, version solving failed.
+
+Call Stack (most recent call first):
+  E:/esp-idf/esp-idf_v5.0.2/v5.0.2/esp-idf/tools/cmake/project.cmake:447 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
