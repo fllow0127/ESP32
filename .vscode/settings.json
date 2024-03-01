@@ -1,3 +1,18 @@
 {
-  "C_Cpp.intelliSenseEngine": "default"
+  "C_Cpp.intelliSenseEngine": "default",
+  "files.associations": {
+    "esp_lvgl_port.h": "c",
+    "led_brightness.h": "c",
+    "lv_demo_widgets.h": "c",
+    "lv_demo_benchmark.h": "c",
+    "esp_lcd_touch_cst816s.h": "c",
+    "lv_demos.h": "c",
+    "gc9a01.h": "c"
+  },
+  "idf.adapterTargetName": "esp32",
+  "idf.portWin": "COM3",
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ]
 }

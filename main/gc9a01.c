@@ -138,8 +138,8 @@ void gc9a01_init(void)
 #else
             .buff_dma = true,
 #endif
-            .sw_rotate = true, // 开启软件旋转屏幕
-            .swap_bytes = true, // 在发送到LCD驱动器之前交换RGB656（16位）中的字节，解决颜色不正常
+            // .sw_rotate = true, // 开启软件旋转屏幕
+            // .swap_bytes = true, // 在发送到LCD驱动器之前交换RGB656（16位）中的字节，解决颜色不正常
         }};
     lvgl_port_add_disp(&disp_cfg);
 
