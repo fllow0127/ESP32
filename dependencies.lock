@@ -34,12 +34,12 @@ dependencies:
     source:
       type: idf
     version: 5.0.2
-  lvgl/lvgl:
-    component_hash: 948bff879a345149b83065535bbc4a026ce9f47498a22881e432a264b9098015
+  lvgl__lvgl:
+    component_hash: null
     source:
-      service_url: https://api.components.espressif.com/
-      type: service
+      path: C:\Users\Donxda\Desktop\esp_lvgl\components\lvgl__lvgl
+      type: local
     version: 8.3.11
-manifest_hash: e7007c2ffb9c4b61ac508cc8bbb356ea8adf790127c7879bb22bcd3473c017e8
+manifest_hash: b0c2b2b72405ba70a366fb035bf5da949cabb48b8f3bfa9edd02da7ae75520fb
 target: esp32
 version: 1.0.0

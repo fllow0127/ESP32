@@ -7,8 +7,10 @@
 #include "gc9a01.h"  //显示屏
 #include "led_brightness.h"
 
-// #include "lvgl.h" // lvgl组件
-#include "lv_demos.h"
+// #include "lv_demos.h"
+#include "generated/gui_guider.h"
+
+lv_ui guider_ui;
 
 void app_main(void)
 {
@@ -16,7 +18,9 @@ void app_main(void)
     cst816s_init();
 
     // lv_demo_benchmark();
-    lv_demo_widgets();
+    // lv_demo_widgets();
+    setup_ui(&guider_ui);
+    // custom_init(&guider_ui);
 
     display_brightness_init();
     display_brightness_set(50);
