@@ -9,6 +9,7 @@
 
 // #include "lv_demos.h"
 #include "generated/gui_guider.h"
+#include "custom/custom.h"
 
 lv_ui guider_ui;
 
@@ -16,13 +17,11 @@ void app_main(void)
 {
     gc9a01_init();
     cst816s_init();
-
-    // lv_demo_benchmark();
-    // lv_demo_widgets();
-    setup_ui(&guider_ui);
-    // custom_init(&guider_ui);
-
     display_brightness_init();
+
+    setup_ui(&guider_ui);
+    custom_init(&guider_ui);
+
     display_brightness_set(50);
 
     while (1)

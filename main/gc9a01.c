@@ -54,9 +54,9 @@ true   Benchmark your system
 
 #define LCD_RST 16 // lcd的rst引脚
 
-#define LCD_H_RES 240                       // 宽
-#define LCD_V_RES 240                       // 高
-#define LCD_DRAW_BUF_HEIGHT (LCD_V_RES / 2) // 刷的buf设置为屏幕高的一半
+#define LCD_H_RES 240                   // 宽
+#define LCD_V_RES 240                   // 高
+#define LCD_DRAW_BUF_HEIGHT (LCD_V_RES) // 刷的buf设置为屏幕高的一半
 
 #define LCD_SWAP_XY false
 #define LCD_MIRROR_X true
@@ -103,7 +103,7 @@ void gc9a01_init(void)
     esp_lcd_panel_init(panel_handle);                               // 初始化gc9a01
     esp_lcd_panel_swap_xy(panel_handle, LCD_SWAP_XY);               // 设置反转
     esp_lcd_panel_mirror(panel_handle, LCD_MIRROR_X, LCD_MIRROR_Y); // 设置镜像
-    esp_lcd_panel_invert_color(panel_handle, true);                // 设置颜色反转
+    esp_lcd_panel_invert_color(panel_handle, true);                 // 设置颜色反转
     /* !< 现在还没有开启屏幕，等lvgl刷新画面的时候再开启屏幕 */
 
     // 初始化esp lvgl port组件
