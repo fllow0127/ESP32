@@ -40,7 +40,7 @@ true   Benchmark your system
 
 #include "esp_lvgl_port.h" // esp lvgl port组件
 #include "lvgl.h"          // lvgl组件
-#include "lv_demos.h"      // lvgl的demo
+// #include "lv_demos.h"      // lvgl的demo
 
 #define LCD_SPI_PORT SPI2_HOST // 使用的spi总线
 

@@ -8,8 +8,10 @@
 #include "led_brightness.h"
 
 // #include "lv_demos.h"
-#include "generated/gui_guider.h"
-#include "custom/custom.h"
+// #include "generated/gui_guider.h"
+// #include "custom/custom.h"
+#include "gui_guider.h"
+#include "custom.h"
 
 lv_ui guider_ui;
 

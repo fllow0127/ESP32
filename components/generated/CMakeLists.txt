@@ -1,7 +1,7 @@
-file(GLOB_RECURSE SOURCE *.c)
+file(GLOB_RECURSE GENERATED_SOURCE *.c)
 
 idf_component_register(
-    SRCS ${SOURCE}
+    SRCS ${GENERATED_SOURCE}
 
     INCLUDE_DIRS
     "."
