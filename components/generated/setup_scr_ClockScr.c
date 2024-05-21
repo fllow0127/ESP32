@@ -81,6 +81,19 @@ void setup_scr_ClockScr(lv_ui *ui)
 	lv_obj_set_style_text_font(ui->ClockScr_CloScrBtn, &lv_font_Antonio_Regular_16, LV_PART_MAIN | LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->ClockScr_CloScrBtn, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
 
+	// Write codes ClockScr_MsgFlagImg
+	ui->ClockScr_MsgFlagImg = lv_img_create(ui->ClockScr);
+	lv_obj_add_flag(ui->ClockScr_MsgFlagImg, LV_OBJ_FLAG_CLICKABLE);
+	lv_img_set_src(ui->ClockScr_MsgFlagImg, &_MsgFlag_alpha_40x40);
+	lv_img_set_pivot(ui->ClockScr_MsgFlagImg, 50, 50);
+	lv_img_set_angle(ui->ClockScr_MsgFlagImg, 0);
+	lv_obj_set_pos(ui->ClockScr_MsgFlagImg, 100, 144);
+	lv_obj_set_size(ui->ClockScr_MsgFlagImg, 40, 40);
+	lv_obj_add_flag(ui->ClockScr_MsgFlagImg, LV_OBJ_FLAG_HIDDEN);
+
+	// Write style for ClockScr_MsgFlagImg, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+	lv_obj_set_style_img_opa(ui->ClockScr_MsgFlagImg, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
+
 	// Update current screen layout.
 	lv_obj_update_layout(ui->ClockScr);
 

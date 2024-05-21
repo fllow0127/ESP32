@@ -11,6 +11,8 @@
 #include <stdio.h>
 #include "gui_guider.h"
 
+unsigned char CLockScrLiveFlag;
+
 void ui_init_style(lv_style_t *style)
 {
   if (style->prop_cnt > 1)
@@ -29,7 +31,6 @@ void init_scr_del_flag(lv_ui *ui)
 void setup_ui(lv_ui *ui)
 {
   init_scr_del_flag(ui);
-  setup_scr_AppScr(ui);
   setup_scr_ClockScr(ui);
   lv_scr_load(ui->ClockScr);
 }

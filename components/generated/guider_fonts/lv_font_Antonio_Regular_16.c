@@ -9,7 +9,7 @@
 /*******************************************************************************
  * Size: 16 px
  * Bpp: 4
- * Opts: --user-data-dir=C:\Users\Donxda\AppData\Roaming\gui-guider --app-path=E:\NXP\GUI-Guider-1.6.1-GA\resources\app.asar --no-sandbox --no-zygote --lang=zh-CN --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1709260440839465 --launch-time-ticks=30461188046 --mojo-platform-channel-handle=2952 --field-trial-handle=1752,i,8534020109760212103,4193060660621862444,131072 --disable-features=SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
+ * Opts: --user-data-dir=C:\Users\Donxda\AppData\Roaming\gui-guider --app-path=E:\NXP\GUI-Guider-1.6.1-GA\resources\app.asar --no-sandbox --no-zygote --lang=zh-CN --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1716257672086480 --launch-time-ticks=16484760776 --mojo-platform-channel-handle=2940 --field-trial-handle=1732,i,17327761690697379147,14756411173925376915,131072 --disable-features=SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
  ******************************************************************************/
 
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
