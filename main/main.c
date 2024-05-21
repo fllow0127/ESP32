@@ -7,7 +7,6 @@
 #include "gc9a01.h"  //显示屏
 #include "led_brightness.h"
 
-// #include "lv_demos.h"
 // #include "generated/gui_guider.h"
 // #include "custom/custom.h"
 #include "gui_guider.h"
