@@ -12,10 +12,14 @@
 #include "gui_guider.h"
 #include "custom.h"
 
+#include "ioT.h"
+
 lv_ui guider_ui;
 
 void app_main(void)
 {
+    myWiFi_Init();
+
     gc9a01_init();
     cst816s_init();
     display_brightness_init();
